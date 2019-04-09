@@ -1,0 +1,317 @@
+[
+  {
+    "description": "  As a user\n  I want to create tasks and exams\n  so that I can see my schedule",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Inspect the My Study Life web page",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@current"
+      }
+    ],
+    "uri": "E:\\DE\\7. félév\\SZAKDOGA\\mystudylife-test\\e2e\\features\\MyStudyLife.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "1. The user should be able to open the page",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@current"
+          }
+        ],
+        "id": "inspect-the-my-study-life-web-page;1.-the-user-should-be-able-to-open-the-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the MyStudyLife Welcome page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 951
+            },
+            "line": 8,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the MyStudyLife logo should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 33
+            },
+            "line": 10,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:46"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the \"Sign in with email\" button should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 30
+            },
+            "line": 11,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the \"Sign up\" button should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 30
+            },
+            "line": 12,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:48"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "2. The Sign Up page should be visible if the Sign Up button is clicked",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@current"
+          }
+        ],
+        "id": "inspect-the-my-study-life-web-page;2.-the-sign-up-page-should-be-visible-if-the-sign-up-button-is-clicked",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the MyStudyLife Welcome page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 379
+            },
+            "line": 15,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the \"Sign up\" button is clicked on the Welcome page",
+            "result": {
+              "status": "passed",
+              "duration": 3635
+            },
+            "line": 17,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the Sign Up page has been loaded",
+            "result": {
+              "status": "passed",
+              "duration": 57
+            },
+            "line": 18,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the MyStudyLife logo should be visible on the Sign Up page",
+            "result": {
+              "status": "passed",
+              "duration": 29
+            },
+            "line": 19,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the \"Create your account\" title should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 31
+            },
+            "line": 20,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the sign up form should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 45
+            },
+            "line": 21,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the footer of the Sign Up page should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 52
+            },
+            "line": 22,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:71"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:48"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "3. Try to create a new task without subject and title on the Dashboard menu",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@current"
+          }
+        ],
+        "id": "inspect-the-my-study-life-web-page;3.-try-to-create-a-new-task-without-subject-and-title-on-the-dashboard-menu",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the MyStudyLife Welcome page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 377
+            },
+            "line": 25,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the \"Sign in with email\" button is clicked on the Welcome page",
+            "result": {
+              "status": "passed",
+              "duration": 3053
+            },
+            "line": 27,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user's email typed into the input field",
+            "result": {
+              "status": "passed",
+              "duration": 155
+            },
+            "line": 28,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user's password typed into the input field",
+            "result": {
+              "status": "passed",
+              "duration": 88
+            },
+            "line": 29,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the \"Sign in\" button is clicked for the login",
+            "result": {
+              "status": "passed",
+              "duration": 3059
+            },
+            "line": 30,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the Dashboard page should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 42
+            },
+            "line": 31,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:48"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "inspect-the-my-study-life-web-page"
+  }
+]

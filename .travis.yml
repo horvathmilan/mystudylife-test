@@ -1,0 +1,27 @@
+language: node_js
+dist: trusty
+addons:
+  chrome: stable
+  artifacts: true
+  s3_region: "us-west-1"
+
+node_js:
+- 10
+
+git:
+  depth: 3
+
+matrix: 
+  allow_failures:
+  - node_js: 10
+
+before_script:
+  - npm install
+  - sleep 5
+  - ./node_modules/.bin/webdriver-manager update
+
+script:
+  - xvfb-run npm test
+
+after_succes:
+  - npm run build-artifact

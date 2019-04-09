@@ -1,0 +1,27 @@
+{
+  "name": "mystudylife-test",
+  "version": "1.0.0",
+  "description": "Test automation practice task for testing the My Study Life web site",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/protractor/bin/protractor ./e2e/protractor.config.js",
+    "ci": "npm run lint && npm run test:once && npm run e2e",
+    "processing": "sleep 3",
+    "wm_update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "keywords": [
+    "CucumberJS",
+    "Protractor",
+    "Chai"
+  ],
+  "author": "Milán Horváth",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "2.3.*",
+    "protractor": "^5.4.0",
+    "protractor-cucumber-framework": "^6.0.0",
+    "require-it": "^1.0.5"
+  }
+}

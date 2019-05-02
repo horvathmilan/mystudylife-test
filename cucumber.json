@@ -1,6 +1,6 @@
 [
   {
-    "description": "  As a user\n  I want to create tasks and exams\n  so that I can see my schedule",
+    "description": "  As a user\n  I want to able to login to the page\n  So I can see the Dashboard page",
     "keyword": "Feature",
     "line": 2,
     "name": "Inspect the My Study Life web page",
@@ -30,7 +30,7 @@
             "name": "the MyStudyLife Welcome page is opened",
             "result": {
               "status": "passed",
-              "duration": 951
+              "duration": 1621
             },
             "line": 8,
             "match": {
@@ -43,7 +43,7 @@
             "name": "the MyStudyLife logo should be visible",
             "result": {
               "status": "passed",
-              "duration": 33
+              "duration": 31
             },
             "line": 10,
             "match": {
@@ -69,7 +69,7 @@
             "name": "the \"Sign up\" button should be visible",
             "result": {
               "status": "passed",
-              "duration": 30
+              "duration": 28
             },
             "line": 12,
             "match": {
@@ -77,11 +77,44 @@
             }
           },
           {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Facebook"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Google"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Office365"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "name": "the following buttons should be visible:",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "line": 13,
+            "match": {
+              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:80"
+            }
+          },
+          {
             "arguments": [],
             "keyword": "After",
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 2
             },
             "hidden": true,
             "match": {
@@ -92,7 +125,7 @@
       },
       {
         "keyword": "Scenario",
-        "line": 14,
+        "line": 18,
         "name": "2. The Sign Up page should be visible if the Sign Up button is clicked",
         "tags": [
           {
@@ -108,9 +141,9 @@
             "name": "the MyStudyLife Welcome page is opened",
             "result": {
               "status": "passed",
-              "duration": 379
+              "duration": 373
             },
-            "line": 15,
+            "line": 19,
             "match": {
               "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:21"
             }
@@ -121,9 +154,9 @@
             "name": "the \"Sign up\" button is clicked on the Welcome page",
             "result": {
               "status": "passed",
-              "duration": 3635
+              "duration": 6093
             },
-            "line": 17,
+            "line": 21,
             "match": {
               "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:26"
             }
@@ -134,9 +167,9 @@
             "name": "the Sign Up page has been loaded",
             "result": {
               "status": "passed",
-              "duration": 57
+              "duration": 37
             },
-            "line": 18,
+            "line": 22,
             "match": {
               "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:31"
             }
@@ -149,7 +182,7 @@
               "status": "passed",
               "duration": 29
             },
-            "line": 19,
+            "line": 23,
             "match": {
               "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:56"
             }
@@ -160,9 +193,9 @@
             "name": "the \"Create your account\" title should be visible",
             "result": {
               "status": "passed",
-              "duration": 31
+              "duration": 30
             },
-            "line": 20,
+            "line": 24,
             "match": {
               "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:61"
             }
@@ -173,9 +206,9 @@
             "name": "the sign up form should be visible",
             "result": {
               "status": "passed",
-              "duration": 45
+              "duration": 44
             },
-            "line": 21,
+            "line": 25,
             "match": {
               "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:66"
             }
@@ -186,9 +219,9 @@
             "name": "the footer of the Sign Up page should be visible",
             "result": {
               "status": "passed",
-              "duration": 52
+              "duration": 48
             },
-            "line": 22,
+            "line": 26,
             "match": {
               "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:71"
             }
@@ -209,15 +242,15 @@
       },
       {
         "keyword": "Scenario",
-        "line": 24,
-        "name": "3. Try to create a new task without subject and title on the Dashboard menu",
+        "line": 28,
+        "name": "3. The user should be able to login to the page",
         "tags": [
           {
             "line": 1,
             "name": "@current"
           }
         ],
-        "id": "inspect-the-my-study-life-web-page;3.-try-to-create-a-new-task-without-subject-and-title-on-the-dashboard-menu",
+        "id": "inspect-the-my-study-life-web-page;3.-the-user-should-be-able-to-login-to-the-page",
         "steps": [
           {
             "arguments": [],
@@ -225,9 +258,9 @@
             "name": "the MyStudyLife Welcome page is opened",
             "result": {
               "status": "passed",
-              "duration": 377
+              "duration": 399
             },
-            "line": 25,
+            "line": 29,
             "match": {
               "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:21"
             }
@@ -238,9 +271,9 @@
             "name": "the \"Sign in with email\" button is clicked on the Welcome page",
             "result": {
               "status": "passed",
-              "duration": 3053
+              "duration": 3054
             },
-            "line": 27,
+            "line": 31,
             "match": {
               "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:26"
             }
@@ -251,9 +284,9 @@
             "name": "the user's email typed into the input field",
             "result": {
               "status": "passed",
-              "duration": 155
+              "duration": 148
             },
-            "line": 28,
+            "line": 32,
             "match": {
               "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:36"
             }
@@ -264,9 +297,9 @@
             "name": "the user's password typed into the input field",
             "result": {
               "status": "passed",
-              "duration": 88
+              "duration": 99
             },
-            "line": 29,
+            "line": 33,
             "match": {
               "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:36"
             }
@@ -277,9 +310,9 @@
             "name": "the \"Sign in\" button is clicked for the login",
             "result": {
               "status": "passed",
-              "duration": 3059
+              "duration": 3074
             },
-            "line": 30,
+            "line": 34,
             "match": {
               "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:41"
             }
@@ -290,9 +323,9 @@
             "name": "the Dashboard page should be visible",
             "result": {
               "status": "passed",
-              "duration": 42
+              "duration": 40
             },
-            "line": 31,
+            "line": 35,
             "match": {
               "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:76"
             }
@@ -302,7 +335,7 @@
             "keyword": "After",
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1
             },
             "hidden": true,
             "match": {

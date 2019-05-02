@@ -49,6 +49,17 @@ class WelcomePage {
     }
 
     /**
+     * Returns if the given buttons are visible.
+     *
+     * @param {array} buttons The given buttons.
+     */
+    areButtonsVisible(buttons) {
+        return buttons.every(button => {
+            return this.isButtonVisible(button);
+        });
+    }
+
+    /**
      * Clicks on the given button.
      *
      * @param {string} text Text of the given button.

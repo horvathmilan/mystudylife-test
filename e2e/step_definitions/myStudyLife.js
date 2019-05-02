@@ -76,4 +76,10 @@ defineSupportCode(({
     Then(/^the Dashboard page should be (visible|hidden)$/, visibility => {
         return expect(dashboardPage.isVisible()).to.eventually.be.equal(visibility === 'visible');
     });
+
+    //Check if the given buttons are visible.
+    Then(/^the following buttons should be visible:$/, data => {
+        let buttons = convertDataTable(data);
+        return expect(welcomePage.areButtonsVisible(buttons)).to.be.true;
+    });
 });

@@ -10,7 +10,7 @@
         "name": "@current"
       }
     ],
-    "uri": "E:\\DE\\7. félév\\SZAKDOGA\\mystudylife-test\\e2e\\features\\MyStudyLife.feature",
+    "uri": "E:\\mystudylife-test\\e2e\\features\\MyStudyLife.feature",
     "elements": [
       {
         "keyword": "Scenario",
@@ -30,11 +30,11 @@
             "name": "the MyStudyLife Welcome page is opened",
             "result": {
               "status": "passed",
-              "duration": 1621
+              "duration": 1079
             },
             "line": 8,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:21"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:21"
             }
           },
           {
@@ -43,11 +43,11 @@
             "name": "the MyStudyLife logo should be visible",
             "result": {
               "status": "passed",
-              "duration": 31
+              "duration": 32
             },
             "line": 10,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:46"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:46"
             }
           },
           {
@@ -56,11 +56,11 @@
             "name": "the \"Sign in with email\" button should be visible",
             "result": {
               "status": "passed",
-              "duration": 30
+              "duration": 37
             },
             "line": 11,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:51"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:51"
             }
           },
           {
@@ -69,11 +69,11 @@
             "name": "the \"Sign up\" button should be visible",
             "result": {
               "status": "passed",
-              "duration": 28
+              "duration": 33
             },
             "line": 12,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:51"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:51"
             }
           },
           {
@@ -106,7 +106,7 @@
             },
             "line": 13,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:80"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:81"
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "hidden": true,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:48"
+              "location": "E:\\mystudylife-test\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:48"
             }
           }
         ]
@@ -141,11 +141,11 @@
             "name": "the MyStudyLife Welcome page is opened",
             "result": {
               "status": "passed",
-              "duration": 373
+              "duration": 408
             },
             "line": 19,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:21"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:21"
             }
           },
           {
@@ -154,11 +154,11 @@
             "name": "the \"Sign up\" button is clicked on the Welcome page",
             "result": {
               "status": "passed",
-              "duration": 6093
+              "duration": 4105
             },
             "line": 21,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:26"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:26"
             }
           },
           {
@@ -171,7 +171,7 @@
             },
             "line": 22,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:31"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:31"
             }
           },
           {
@@ -180,11 +180,11 @@
             "name": "the MyStudyLife logo should be visible on the Sign Up page",
             "result": {
               "status": "passed",
-              "duration": 29
+              "duration": 28
             },
             "line": 23,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:56"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:56"
             }
           },
           {
@@ -197,7 +197,7 @@
             },
             "line": 24,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:61"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:61"
             }
           },
           {
@@ -206,11 +206,11 @@
             "name": "the sign up form should be visible",
             "result": {
               "status": "passed",
-              "duration": 44
+              "duration": 37
             },
             "line": 25,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:66"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:66"
             }
           },
           {
@@ -219,11 +219,11 @@
             "name": "the footer of the Sign Up page should be visible",
             "result": {
               "status": "passed",
-              "duration": 48
+              "duration": 39
             },
             "line": 26,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:71"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:71"
             }
           },
           {
@@ -235,7 +235,7 @@
             },
             "hidden": true,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:48"
+              "location": "E:\\mystudylife-test\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:48"
             }
           }
         ]
@@ -258,11 +258,11 @@
             "name": "the MyStudyLife Welcome page is opened",
             "result": {
               "status": "passed",
-              "duration": 399
+              "duration": 371
             },
             "line": 29,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:21"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:21"
             }
           },
           {
@@ -271,11 +271,11 @@
             "name": "the \"Sign in with email\" button is clicked on the Welcome page",
             "result": {
               "status": "passed",
-              "duration": 3054
+              "duration": 3062
             },
             "line": 31,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:26"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:26"
             }
           },
           {
@@ -284,11 +284,11 @@
             "name": "the user's email typed into the input field",
             "result": {
               "status": "passed",
-              "duration": 148
+              "duration": 140
             },
             "line": 32,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:36"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:36"
             }
           },
           {
@@ -297,11 +297,11 @@
             "name": "the user's password typed into the input field",
             "result": {
               "status": "passed",
-              "duration": 99
+              "duration": 88
             },
             "line": 33,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:36"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:36"
             }
           },
           {
@@ -310,11 +310,11 @@
             "name": "the \"Sign in\" button is clicked for the login",
             "result": {
               "status": "passed",
-              "duration": 3074
+              "duration": 3070
             },
             "line": 34,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:41"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:41"
             }
           },
           {
@@ -323,11 +323,11 @@
             "name": "the Dashboard page should be visible",
             "result": {
               "status": "passed",
-              "duration": 40
+              "duration": 46
             },
             "line": 35,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:76"
+              "location": "E:\\mystudylife-test\\e2e\\step_definitions\\myStudyLife.js:76"
             }
           },
           {
@@ -335,11 +335,11 @@
             "keyword": "After",
             "result": {
               "status": "passed",
-              "duration": 1
+              "duration": 0
             },
             "hidden": true,
             "match": {
-              "location": "félév\\SZAKDOGA\\mystudylife-test\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:48"
+              "location": "E:\\mystudylife-test\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:48"
             }
           }
         ]

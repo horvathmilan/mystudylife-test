@@ -18,7 +18,7 @@ exports.config = {
     },
     framework: 'custom',
     frameworkPath: require.resolve('protractor-cucumber-framework'),
-    chromeDriver: path.join(requireIt.directory('protractor'), 'node_modules', 'webdriver-manager', 'selenium', 'chromedriver_2.46' + (os.platform() === 'win32' ? '.exe' : '')),
+    chromeDriver: path.join(requireIt.directory('protractor'), 'node_modules', 'webdriver-manager', 'selenium', 'chromedriver_77.0.3865.40' + (os.platform() === 'win32' ? '.exe' : '')),
     onPrepare: function () {
         global.GLOBAL_TIMEOUT = GLOBAL_TIMEOUT;
         global.extraWait = 3000;

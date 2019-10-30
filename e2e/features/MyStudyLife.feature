@@ -18,7 +18,7 @@ Feature: Inspect the My Study Life web page
   Scenario: 1. The user should be able to open the page
     Given the MyStudyLife Welcome page is opened
 
-    Then the MyStudyLife logo should be hidden
+    Then the MyStudyLife logo should be visible
     And the "Sign in with email" button should be visible
     And the "Sign up" button should be visible
     And the following buttons should be visible:
@@ -29,7 +29,7 @@ Feature: Inspect the My Study Life web page
   Scenario: 1. The user should be able to open the page
     Given the MyStudyLife Welcome page is opened
 
-    Then the MyStudyLife logo should be hidden
+    Then the MyStudyLife logo should be visible
     And the "Sign in with email" button should be visible
     And the "Sign up" button should be visible
     And the following buttons should be visible:

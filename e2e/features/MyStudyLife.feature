@@ -32,4 +32,4 @@ Feature: Inspect the My Study Life web page
     And the user's email typed into the input field
     And the user's password typed into the input field
     And the "Sign in" button is clicked for the login
-    Then the Dashboard page should be hidden
+    Then the Dashboard page should be visible

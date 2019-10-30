@@ -33,3 +33,21 @@ Feature: Inspect the My Study Life web page
     And the user's password typed into the input field
     And the "Sign in" button is clicked for the login
     Then the Dashboard page should be visible
+
+  Scenario: 3. The user should be able to login to the page
+    Given the MyStudyLife Welcome page is opened
+
+    When the "Sign in with email" button is clicked on the Welcome page
+    And the user's email typed into the input field
+    And the user's password typed into the input field
+    And the "Sign in" button is clicked for the login
+    Then the Dashboard page should be visible
+
+  Scenario: 3. The user should be able to login to the page
+    Given the MyStudyLife Welcome page is opened
+
+    When the "Sign in with email" button is clicked on the Welcome page
+    And the user's email typed into the input field
+    And the user's password typed into the input field
+    And the "Sign in" button is clicked for the login
+    Then the Dashboard page should be visible
